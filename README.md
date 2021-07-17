@@ -1,2 +1,2 @@
-# goit-markup-hw-01
-Макет сайта WebStudio
+# goit-markup-hw-02
+Добавление стилей CSS и страницы portfolio.html
