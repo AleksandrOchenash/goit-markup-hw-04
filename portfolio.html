@@ -22,7 +22,9 @@
         <ul class="list">
           <li><a class="nav-links" href="./index.html">Студия</a></li>
           <li>
-            <a class="nav-links current-page" href="./portfolio.html">Портфолио</a>
+            <a class="nav-links current-page" href="./portfolio.html"
+              >Портфолио</a
+            >
           </li>
           <li><a class="nav-links" href="#">Контакты</a></li>
         </ul>
@@ -40,17 +42,25 @@
     </header>
     <main>
       <!--Фильтр проектов  -->
-      <section>
+      <div>
         <ul class="list">
-          <li class="list-filter"><a href="#">Все</a></li>
-          <li class="list-filter"><a href="#">Вебсайты</a></li>
-          <li class="list-filter"><a href="#">Приложения</a></li>
-          <li class="list-filter"><a href="#">Дизайн</a></li>
-          <li class="list-filter"><a href="#">Маркетинг</a></li>
+          <li><button type="button" class="filter-button">Все</button></li>
+          <li>
+            <button type="button" class="filter-button">Веб-сайты</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">Приложения</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="filter-button">Маркетинг</button>
+          </li>
         </ul>
-      </section>
+      </div>
       <!-- Примеры проектов -->
-      <section>
+      <div>
         <ul class="list">
           <li>
             <img
@@ -59,7 +69,7 @@
               width="370"
               height="294"
             />
-            <p class="title">Технокряк</p>
+            <p class="portfolio-title">Технокряк</p>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -69,7 +79,7 @@
               width="370"
               height="294"
             />
-            <p class="title">Постер New Orlean vs Golden Star</p>
+            <p class="portfolio-title">Постер New Orlean vs Golden Star</p>
             <p>Постер</p>
           </li>
           <li>
@@ -79,8 +89,8 @@
               width="370"
               height="294"
             />
-            <p class="title">Ресторан Seafood</li>p>
-            <p />
+            <p class="portfolio-title">Ресторан Seafood</p>
+
             <p>Приложение</p>
           </li>
           <li>
@@ -90,7 +100,7 @@
               width="370"
               height="294"
             />
-            <p class="title">Проект Prime</p>
+            <p class="portfolio-title">Проект Prime</p>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -100,7 +110,7 @@
               width="370"
               height="294"
             />
-            <p class="title">Проект Boxes</p>
+            <p class="portfolio-title">Проект Boxes</p>
             <p>Приложение</p>
           </li>
           <li>
@@ -110,7 +120,7 @@
               width="370"
               height="294"
             />
-            <p class="title">Inspiration has no Borders</p>
+            <p class="portfolio-title">Inspiration has no Borders</p>
             <p>Веб-сайт</p>
           </li>
           <li>
@@ -120,7 +130,7 @@
               width="370"
               height="294"
             />
-            <p class="title">Издание Limited Edition</p>
+            <p class="portfolio-title">Издание Limited Edition</p>
             <p>Дизайн</p>
           </li>
           <li>
@@ -130,7 +140,7 @@
               width="370"
               height="294"
             />
-            <p class="title">Проект LAB</p>
+            <p class="portfolio-title">Проект LAB</p>
             <p>Маркетинг</p>
           </li>
           <li>
@@ -140,16 +150,16 @@
               width="370"
               height="294"
             />
-            <p class="title">Growing Business</p>
+            <p class="portfolio-title">Growing Business</p>
             <p>Приложение</p>
           </li>
         </ul>
-      </section>
+      </div>
     </main>
     <!-- Подвал -->
-    <footer>
-      <a class="logo" href="./index.html"
-        ><span class="logo-first-part">Web</span
+    <footer class="footer-section">
+      <a class="logo" href="./index.html">
+        <span class="logo-first-part">Web</span
         ><span class="logo-white">Studio</span>
       </a>
       <address class="address-section">
