@@ -94,6 +94,9 @@ body {
   color: inherit;
   cursor: pointer;
 }
+.hero-button:hover {
+  background-color: #188ce8;
+}
 
 /* Навигационные ссылки */
 .nav-links {
