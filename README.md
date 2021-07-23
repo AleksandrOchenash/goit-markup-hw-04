@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-Добавление цвета в CSS и страницы portfolio.html
+# goit-markup-hw-03
+Добавление блочного позиционирования и flexbox'ов
