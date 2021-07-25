@@ -19,8 +19,8 @@
   <body>
     <!-- Шапка страницы -->
 
-    <header>
-      <div class="header-section container">
+    <header class="header-section">
+      <div class="header-container container">
         <nav class="nav-container">
           <div class="logo-container">
             <a class="logo" href="./index.html"
@@ -59,35 +59,38 @@
     <main>
       <!--Секция Герой -->
       <section class="hero-section centered">
-        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="hero-button">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="hero-button">Заказать услугу</button>
+        </div>
       </section>
       <!--Секция Преимущества -->
-      <section class="section">
+      <section class="feature-section section">
         <div class="feature-container container">
+          <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="feature-list list">
             <li class="feature-list-item">
-              <h3 class="feature-title">Внимание к деталям</h3>
+              <h3 class="feature-list-item-title">Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
             <li class="feature-list-item">
-              <h3 class="feature-title">Пунктуальность</h3>
+              <h3 class="feature-list-item-title">Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
             <li class="feature-list-item">
-              <h3 class="feature-title">Планирование</h3>
+              <h3 class="feature-list-item-title">Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li>
+            <li class="feature-list-item">
               <h3 class="feature-title">Современные технологии</h3>
               <p>
                 Значимость этих проблем настолько очевидна, что реализация
@@ -98,7 +101,7 @@
         </div>
 
         <!--Секция Чем мы занимаемся -->
-        <div class="occupation-container container">
+        <div class="container">
           <h2 class="section-title centered">Чем мы занимаемся</h2>
           <ul class="occupation-list list">
             <li class="occupation-list-item">
