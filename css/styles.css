@@ -225,11 +225,12 @@ ul {
 .nav-contacts-list {
   display: flex;
   align-items: center;
-  justify-content: center;
   margin-left: auto;
 }
 .nav-contacts-item:not(:last-child) {
   margin-right: 50px;
+  align-items: center;
+  justify-content: center;
 }
 .nav-contacts-link {
   padding: 0px;
