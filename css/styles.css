@@ -214,6 +214,9 @@ ul {
 .nav-contacts-icon {
   margin-right: 10px;
 }
+.nav-contacts-icon:hover {
+  fill: var(--accent-color);
+}
 .current-page {
   color: var(--accent-color);
 }
