@@ -211,6 +211,9 @@ ul {
   text-decoration: none;
   margin: 0;
 }
+.nav-contacts-icon {
+  margin-right: 10px;
+}
 .current-page {
   color: var(--accent-color);
 }
