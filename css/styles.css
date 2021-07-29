@@ -196,7 +196,6 @@ ul {
 }
 .nav-list {
   display: flex;
-  align-items: center;
   margin-right: auto;
 }
 
@@ -226,6 +225,7 @@ ul {
 .nav-contacts-list {
   display: flex;
   align-items: center;
+  justify-content: center;
   margin-left: auto;
 }
 .nav-contacts-item:not(:last-child) {
