@@ -173,6 +173,9 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
 }
+.feature-list-icon {
+  background-image: ;
+}
 /* Секция Чем мы занимаемся */
 .occupation-list {
   display: flex;
